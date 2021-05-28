@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chakyiu/comp3334-project.git"
+    "url": "git+https://github.com/Chakyiu/js-auth-login"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Chakyiu/comp3334-project/issues"
+    "url": "https://github.com/Chakyiu/js-auth-login/issues"
   },
-  "homepage": "https://github.com/Chakyiu/comp3334-project#readme",
+  "homepage": "https://github.com/Chakyiu/js-auth-login#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",

@@ -1,13 +1,20 @@
-# comp3334-project
+# Database used
 
-# Database used:
+MongoDB
 
-MongoDB --> new cluster --> Security(Database access) --> add new user --> admin/ 1234567890 --> Security(Network access) --> new IP address --> 0.0.0.0/0
+# library list
 
-# library list:
+### Front-end
 
-Please refer to package.json for complete dependencies.
+`ejs`
 
-# login flow:
+### Back-end
 
-login --> passport checking (email, password) --> two factor authen (password + email verification code) --> logon
+`expressjs` => web app framework
+`bcryptjs`, `crypto-js` => for encrypting users' password
+`passport` => server-side authentication
+`nodemailer` => SMTP email service
+
+# login flow
+
+login => passport checking (email, password) => two factor authen (password + email verification code) => logon => logout
