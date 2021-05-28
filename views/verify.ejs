@@ -1,0 +1,15 @@
+<div class="container mt-5 col-4">
+    <h1>Email verification</h1>
+    <hr>
+
+    <%- include('partials/messages') %>
+    <form action="/users/verify" method="POST">
+        <div class="form-group">
+            <label for="token">Verification code has been sent to
+                <%= typeof email != 'undefined' ? email : '' %></label>
+            <input type="text" name="token" id="token" class="form-control" placeholder="Verification code">
+        </div>
+        <hr>
+        <button type="submit">Verify</button>
+    </form>
+</div>
